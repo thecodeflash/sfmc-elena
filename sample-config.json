@@ -1,0 +1,13 @@
+{
+    "authData":{
+        "grant_type": "client_credentials", // This value should stay as it is unless you know what you are doing
+        "client_id":"",     // SFMC Account package
+        "client_secret": "",    // SFMC Account package
+        "account_id": ""    // Account MID
+    },
+    "authURLs":{
+        "authBaseURL":"",
+        "restBaseURL":"",
+        "soapBaseURL":"",
+    }
+}

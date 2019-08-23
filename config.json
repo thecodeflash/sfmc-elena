@@ -1,0 +1,13 @@
+{
+    "authData":{
+        "grant_type": "client_credentials", 
+        "client_id":"y2jt71mdaxtd9vyns8rfhvl4",
+        "client_secret": "aUBumuA6cDeEEjAqhc82Ar7t",
+        "account_id": "110005690"
+    },
+    "authURLs":{
+        "authBaseURL":"https://mc6vgk-sxj9p08pqwxqz9hw9-4my.auth.marketingcloudapis.com",
+        "restBaseURL":"https://mc6vgk-sxj9p08pqwxqz9hw9-4my.rest.marketingcloudapis.com",
+        "soapBaseURL":"https://mc6vgk-sxj9p08pqwxqz9hw9-4my.soap.marketingcloudapis.com"
+    }
+}
