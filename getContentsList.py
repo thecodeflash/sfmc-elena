@@ -41,7 +41,7 @@ newRequestBody = {
                         {
                             "property":"assetType.id",
                             "simpleOperator":"greaterThanOrEqual",
-                            "value":20
+                            "value":16
                         },
                         "logicalOperator":"AND",
                         "rightOperand":
@@ -65,7 +65,7 @@ data = r2.json()
 
 print(r2)
 
-with open('./outputs/ImagesData.json', 'w') as outfile:
+with open('./outputs/ContentList.json', 'w') as outfile:
     json.dump(data, outfile)
 
 
