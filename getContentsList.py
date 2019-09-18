@@ -31,26 +31,27 @@ expiresIn = data['expires_in']
 newRequestBody = {
                     "page":
                     {
-                        "page":1,
-                        "pageSize":50
-                    },
-
-                    "query":
-                    {
-                        "leftOperand":
-                        {
-                            "property":"assetType.id",
-                            "simpleOperator":"greaterThanOrEqual",
-                            "value":16
-                        },
-                        "logicalOperator":"AND",
-                        "rightOperand":
-                        {
-                            "property":"assetType.id",
-                            "simpleOperator":"lessThanOrEqual",
-                            "value":74
-                        }
+                        "page":2,
+                        "pageSize":10
                     }
+                    # ,
+
+                    # "query":
+                    # {
+                    #     "leftOperand":
+                    #     {
+                    #         "property":"assetType.id",
+                    #         "simpleOperator":"greaterThanOrEqual",
+                    #         "value":16
+                    #     },
+                    #     "logicalOperator":"AND",
+                    #     "rightOperand":
+                    #     {
+                    #         "property":"assetType.id",
+                    #         "simpleOperator":"lessThanOrEqual",
+                    #         "value":74
+                    #     }
+                    # }
                 }
 
 newRequestHeader = {
